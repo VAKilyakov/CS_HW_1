@@ -52,6 +52,7 @@ Max number is: -3
 22 3 9 -> 22
 */
 
+/*
 //Решение
 Console.Write("Input number 1: ");
 int number_1 = Convert.ToInt32(Console.ReadLine());
@@ -75,3 +76,24 @@ if (result < number_3)
 }
 
 Console.WriteLine("Max number is: " + result);
+*/
+
+/*
+Тесты
+PS D:\Home_Works\CS_HW_1> dotnet run
+Input number 1: 2
+Input number 2: 3
+Input number 3: 7
+Max number is: 7
+PS D:\Home_Works\CS_HW_1> dotnet run
+Input number 1: 44
+Input number 2: 5
+Input number 3: 78
+Max number is: 78
+PS D:\Home_Works\CS_HW_1> dotnet run
+Input number 1: 22
+Input number 2: 3
+Input number 3: 9
+Max number is: 22
+*/
+
