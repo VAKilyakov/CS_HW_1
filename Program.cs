@@ -123,3 +123,35 @@ PS D:\Home_Works\CS_HW_1> dotnet run
 Input your number: 7
 No
 */
+
+/* Задача 4
+Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+5 -> 2, 4
+8 -> 2, 4, 6, 8
+*/
+
+/* Решение 4
+Console.Write("Input your number: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+int current = 1;
+
+while(current <= number)
+{
+    if ( current%2 == 0)
+    {
+        Console.Write(current + " ");
+    }
+    
+    current++;
+}
+
+/* Тесты 4
+PS D:\Home_Works\CS_HW_1> dotnet run
+Input your number: 5
+2 4 
+PS D:\Home_Works\CS_HW_1> dotnet run
+Input your number: 8
+2 4 6 8 
+*/
+
