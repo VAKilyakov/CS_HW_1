@@ -1,5 +1,4 @@
-﻿/*
-Задача
+﻿/* Задача 1
 
 Задача 2: Напишите программу, которая на вход принимает два числа и выдаёт большее число.
 a = 5; b = 7 -> max = 7
@@ -7,8 +6,7 @@ a = 2 b = 10 -> max = 10
 a = -9 b = -3 -> max = -3
 */
 
-/*
-//Решение
+/* Решение 1
 
 Console.Write("Input number 1: ");
 int number_1 = Convert.ToInt32(Console.ReadLine());
@@ -26,8 +24,7 @@ else
 }
 */
 
-/*
-Тесты
+/* Тесты 1
 
 PS D:\Home_Works\CS_HW_1> dotnet run
 Input number 1: 5
@@ -43,8 +40,7 @@ Input number 2: -3
 Max number is: -3
 */
 
-/*
-Задача
+/* Задача 2
 
 Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
 2, 3, 7 -> 7
@@ -52,8 +48,7 @@ Max number is: -3
 22 3 9 -> 22
 */
 
-/*
-//Решение
+/* Решение 2
 Console.Write("Input number 1: ");
 int number_1 = Convert.ToInt32(Console.ReadLine());
 
@@ -78,8 +73,7 @@ if (result < number_3)
 Console.WriteLine("Max number is: " + result);
 */
 
-/*
-Тесты
+/* Тесты 2
 PS D:\Home_Works\CS_HW_1> dotnet run
 Input number 1: 2
 Input number 2: 3
@@ -97,3 +91,35 @@ Input number 3: 9
 Max number is: 22
 */
 
+/* Задача 3
+Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+4 -> да
+-3 -> нет
+7 -> нет
+*/
+
+/* Решение 3
+Console.Write("Input your number: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+if ( number%2 == 0)
+{
+   Console.WriteLine("Yes");
+}
+else
+{
+    Console.WriteLine("No");
+}
+*/
+
+/* Тесты 3
+PS D:\Home_Works\CS_HW_1> dotnet run
+Input your number: 4
+Yes
+PS D:\Home_Works\CS_HW_1> dotnet run
+Input your number: -3
+No
+PS D:\Home_Works\CS_HW_1> dotnet run
+Input your number: 7
+No
+*/
